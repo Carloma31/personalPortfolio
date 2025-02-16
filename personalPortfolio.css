@@ -1,0 +1,91 @@
+body{
+    border: solid 2px black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border: solid 2px black;
+    height: fit-content;
+}
+
+h1{
+    font-family: cursive;
+    letter-spacing: 3px;
+}
+
+#titulo{
+    padding-bottom: 80px;
+}
+
+aside{
+    grid-column: 1 / 2;
+    grid-row:1 / 3;
+    margin:0;
+}
+
+#projects{
+    border:solid 2px black;
+    padding: 20px;
+
+}
+
+aside > p {
+     border:solid 2px black;
+     padding:20px;
+     margin:0;
+     
+}
+
+
+
+#centerTopSection{
+    grid-column: 2 / 3;
+    border:solid 2px black;
+    padding-left: 50px;
+}
+#centerBottomSection{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    border:solid 2px black;
+    padding-left: 50px;
+}
+
+#rightSection{
+    grid-column: 3/3;
+    grid-row: 1 / 3;
+    border:solid 2px black;
+    padding-left: 50px;
+}
+
+#reseñas,#cajaReseñas{
+    padding:15px;
+}
+
+#reseñas{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+#reseñas div{
+    padding:15px;
+    width: 300px;
+    border:black 2px solid;
+    border-radius: 25px;
+
+}
+
+cite{
+    color:grey;
+}
+
